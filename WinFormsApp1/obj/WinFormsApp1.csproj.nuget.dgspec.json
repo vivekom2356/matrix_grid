@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "D:\\Visual studio\\Visual C++\\WinFormsApp1\\WinFormsApp1\\WinFormsApp1.csproj": {}
+    "D:\\Visual studio\\Visual C++\\matrix_grid\\WinFormsApp1\\WinFormsApp1.csproj": {}
   },
   "projects": {
-    "D:\\Visual studio\\Visual C++\\WinFormsApp1\\WinFormsApp1\\WinFormsApp1.csproj": {
+    "D:\\Visual studio\\Visual C++\\matrix_grid\\WinFormsApp1\\WinFormsApp1.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\Visual studio\\Visual C++\\WinFormsApp1\\WinFormsApp1\\WinFormsApp1.csproj",
+        "projectUniqueName": "D:\\Visual studio\\Visual C++\\matrix_grid\\WinFormsApp1\\WinFormsApp1.csproj",
         "projectName": "WinFormsApp1",
-        "projectPath": "D:\\Visual studio\\Visual C++\\WinFormsApp1\\WinFormsApp1\\WinFormsApp1.csproj",
+        "projectPath": "D:\\Visual studio\\Visual C++\\matrix_grid\\WinFormsApp1\\WinFormsApp1.csproj",
         "packagesPath": "C:\\Users\\Vivek O M\\.nuget\\packages\\",
-        "outputPath": "D:\\Visual studio\\Visual C++\\WinFormsApp1\\WinFormsApp1\\obj\\",
+        "outputPath": "D:\\Visual studio\\Visual C++\\matrix_grid\\WinFormsApp1\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"

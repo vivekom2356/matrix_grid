@@ -29,24 +29,18 @@
         private void InitializeComponent()
         {
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(FormMatrixGrid));
-            toolStrip1 = new ToolStrip();
             toolStripSeparator1 = new ToolStripSeparator();
             toolStripButton5 = new ToolStripButton();
             toolStripSeparator2 = new ToolStripSeparator();
             toolStripSeparator3 = new ToolStripSeparator();
             toolStripButton1 = new ToolStripButton();
+            toolStrip1 = new ToolStrip();
+            menuStrip1 = new MenuStrip();
+            maxSizeToolStripMenuItem = new ToolStripMenuItem();
+            threadToolStripMenuItem = new ToolStripMenuItem();
             toolStrip1.SuspendLayout();
+            menuStrip1.SuspendLayout();
             SuspendLayout();
-            // 
-            // toolStrip1
-            // 
-            toolStrip1.ImageScalingSize = new Size(24, 24);
-            toolStrip1.Items.AddRange(new ToolStripItem[] { toolStripSeparator1, toolStripButton5, toolStripSeparator2, toolStripSeparator3, toolStripButton1 });
-            toolStrip1.Location = new Point(0, 0);
-            toolStrip1.Name = "toolStrip1";
-            toolStrip1.Size = new Size(800, 69);
-            toolStrip1.TabIndex = 0;
-            toolStrip1.Text = "toolStrip1";
             // 
             // toolStripSeparator1
             // 
@@ -86,28 +80,67 @@
             toolStripButton1.Text = "toolStripButton1";
             toolStripButton1.Click += toolStripButton1_Click;
             // 
+            // toolStrip1
+            // 
+            toolStrip1.ImageScalingSize = new Size(24, 24);
+            toolStrip1.Items.AddRange(new ToolStripItem[] { toolStripSeparator1, toolStripButton5, toolStripSeparator2, toolStripSeparator3, toolStripButton1 });
+            toolStrip1.Location = new Point(0, 33);
+            toolStrip1.Name = "toolStrip1";
+            toolStrip1.Size = new Size(800, 69);
+            toolStrip1.TabIndex = 0;
+            toolStrip1.Text = "toolStrip1";
+            // 
+            // menuStrip1
+            // 
+            menuStrip1.ImageScalingSize = new Size(24, 24);
+            menuStrip1.Items.AddRange(new ToolStripItem[] { maxSizeToolStripMenuItem, threadToolStripMenuItem });
+            menuStrip1.Location = new Point(0, 0);
+            menuStrip1.Name = "menuStrip1";
+            menuStrip1.Size = new Size(800, 33);
+            menuStrip1.TabIndex = 1;
+            menuStrip1.Text = "menuStrip1";
+            // 
+            // maxSizeToolStripMenuItem
+            // 
+            maxSizeToolStripMenuItem.Name = "maxSizeToolStripMenuItem";
+            maxSizeToolStripMenuItem.Size = new Size(95, 29);
+            maxSizeToolStripMenuItem.Text = "max size";
+            // 
+            // threadToolStripMenuItem
+            // 
+            threadToolStripMenuItem.Name = "threadToolStripMenuItem";
+            threadToolStripMenuItem.Size = new Size(79, 29);
+            threadToolStripMenuItem.Text = "thread";
+            // 
             // FormMatrixGrid
             // 
             AutoScaleDimensions = new SizeF(10F, 25F);
             AutoScaleMode = AutoScaleMode.Font;
             ClientSize = new Size(800, 766);
             Controls.Add(toolStrip1);
+            Controls.Add(menuStrip1);
+            MainMenuStrip = menuStrip1;
             Name = "FormMatrixGrid";
             Text = "MatrixGrid";
             Load += OnPaint;
             toolStrip1.ResumeLayout(false);
             toolStrip1.PerformLayout();
+            menuStrip1.ResumeLayout(false);
+            menuStrip1.PerformLayout();
             ResumeLayout(false);
             PerformLayout();
         }
 
         #endregion
 
-        private ToolStrip toolStrip1;
-        private ToolStripButton toolStripButton1;
-        private ToolStripButton toolStripButton5;
         private ToolStripSeparator toolStripSeparator1;
+        private ToolStripButton toolStripButton5;
         private ToolStripSeparator toolStripSeparator2;
         private ToolStripSeparator toolStripSeparator3;
+        private ToolStripButton toolStripButton1;
+        private ToolStrip toolStrip1;
+        private MenuStrip menuStrip1;
+        private ToolStripMenuItem maxSizeToolStripMenuItem;
+        private ToolStripMenuItem threadToolStripMenuItem;
     }
 }

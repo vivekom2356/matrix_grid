@@ -1,24 +1,24 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "D:\\Visual studio\\Visual C\u002B\u002B\\WinFormsApp1\\",
+  "WorkspaceRootPath": "D:\\Visual studio\\Visual C\u002B\u002B\\matrix_grid\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{E5EBFEFA-FFF5-4413-BAC6-EA8E91717020}|WinFormsApp1\\WinFormsApp1.csproj|d:\\visual studio\\visual c\u002B\u002B\\winformsapp1\\winformsapp1\\formmatrixgrid.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{E5EBFEFA-FFF5-4413-BAC6-EA8E91717020}|WinFormsApp1\\WinFormsApp1.csproj|solutionrelative:winformsapp1\\formmatrixgrid.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\Visual studio\\Visual C\u002B\u002B\\WinFormsApp1\\WinFormsApp1\\FormMatrixGrid.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\Vivek O M\\Downloads\\MatrixGrid-main\\MatrixGrid-main\\Form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{E5EBFEFA-FFF5-4413-BAC6-EA8E91717020}|WinFormsApp1\\WinFormsApp1.csproj|D:\\Visual studio\\Visual C\u002B\u002B\\WinFormsApp1\\winformsapp1\\formmatrixgrid.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "AbsoluteMoniker": "D:0:0:{E5EBFEFA-FFF5-4413-BAC6-EA8E91717020}|WinFormsApp1\\WinFormsApp1.csproj|d:\\visual studio\\visual c\u002B\u002B\\matrix_grid\\winformsapp1\\formmatrixgrid.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
       "RelativeMoniker": "D:0:0:{E5EBFEFA-FFF5-4413-BAC6-EA8E91717020}|WinFormsApp1\\WinFormsApp1.csproj|solutionrelative:winformsapp1\\formmatrixgrid.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\Vivek O M\\Downloads\\MatrixGrid-main\\MatrixGrid-main\\Program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{E5EBFEFA-FFF5-4413-BAC6-EA8E91717020}|WinFormsApp1\\WinFormsApp1.csproj|d:\\visual studio\\visual c\u002B\u002B\\matrix_grid\\winformsapp1\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E5EBFEFA-FFF5-4413-BAC6-EA8E91717020}|WinFormsApp1\\WinFormsApp1.csproj|solutionrelative:winformsapp1\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{E5EBFEFA-FFF5-4413-BAC6-EA8E91717020}|WinFormsApp1\\WinFormsApp1.csproj|d:\\visual studio\\visual c\u002B\u002B\\winformsapp1\\winformsapp1\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{E5EBFEFA-FFF5-4413-BAC6-EA8E91717020}|WinFormsApp1\\WinFormsApp1.csproj|solutionrelative:winformsapp1\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{E5EBFEFA-FFF5-4413-BAC6-EA8E91717020}|WinFormsApp1\\WinFormsApp1.csproj|d:\\visual studio\\visual c\u002B\u002B\\matrix_grid\\winformsapp1\\formmatrixgrid.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E5EBFEFA-FFF5-4413-BAC6-EA8E91717020}|WinFormsApp1\\WinFormsApp1.csproj|solutionrelative:winformsapp1\\formmatrixgrid.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\Vivek O M\\Downloads\\MatrixGrid-main\\MatrixGrid-main\\Program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -28,15 +28,15 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 2,
+          "SelectedChildIndex": 1,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 1,
               "Title": "FormMatrixGrid.cs [Design]",
-              "DocumentMoniker": "D:\\Visual studio\\Visual C\u002B\u002B\\WinFormsApp1\\WinFormsApp1\\FormMatrixGrid.cs",
+              "DocumentMoniker": "D:\\Visual studio\\Visual C\u002B\u002B\\matrix_grid\\WinFormsApp1\\FormMatrixGrid.cs",
               "RelativeDocumentMoniker": "WinFormsApp1\\FormMatrixGrid.cs",
-              "ToolTip": "D:\\Visual studio\\Visual C\u002B\u002B\\WinFormsApp1\\WinFormsApp1\\FormMatrixGrid.cs [Design]",
+              "ToolTip": "D:\\Visual studio\\Visual C\u002B\u002B\\matrix_grid\\WinFormsApp1\\FormMatrixGrid.cs [Design]",
               "RelativeToolTip": "WinFormsApp1\\FormMatrixGrid.cs [Design]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-06-03T10:09:06.586Z",
@@ -44,48 +44,51 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "Form1.cs",
-              "DocumentMoniker": "C:\\Users\\Vivek O M\\Downloads\\MatrixGrid-main\\MatrixGrid-main\\Form1.cs",
-              "ToolTip": "C:\\Users\\Vivek O M\\Downloads\\MatrixGrid-main\\MatrixGrid-main\\Form1.cs",
-              "ViewState": "AgIAABoAAAAAAAAAAAAAAHQAAAAUAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-03T09:43:43.773Z"
-            },
-            {
-              "$type": "Document",
               "DocumentIndex": 0,
               "Title": "FormMatrixGrid.cs",
               "DocumentMoniker": "D:\\Visual studio\\Visual C\u002B\u002B\\WinFormsApp1\\WinFormsApp1\\FormMatrixGrid.cs",
-              "RelativeDocumentMoniker": "WinFormsApp1\\FormMatrixGrid.cs",
+              "RelativeDocumentMoniker": "..\\WinFormsApp1\\WinFormsApp1\\FormMatrixGrid.cs",
               "ToolTip": "D:\\Visual studio\\Visual C\u002B\u002B\\WinFormsApp1\\WinFormsApp1\\FormMatrixGrid.cs",
-              "RelativeToolTip": "WinFormsApp1\\FormMatrixGrid.cs",
-              "ViewState": "AgIAAFUAAAAAAAAAAAAAwDgAAAAeAAAAAAAAAA==",
+              "RelativeToolTip": "..\\WinFormsApp1\\WinFormsApp1\\FormMatrixGrid.cs",
+              "ViewState": "AgIAAFwAAAAAAAAAAAAwwGAAAAAEAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-03T07:55:59.654Z",
+              "WhenOpened": "2025-06-07T16:55:44.167Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Program.cs",
+              "DocumentMoniker": "D:\\Visual studio\\Visual C\u002B\u002B\\matrix_grid\\WinFormsApp1\\Program.cs",
+              "RelativeDocumentMoniker": "WinFormsApp1\\Program.cs",
+              "ToolTip": "D:\\Visual studio\\Visual C\u002B\u002B\\matrix_grid\\WinFormsApp1\\Program.cs",
+              "RelativeToolTip": "WinFormsApp1\\Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-03T07:54:35.533Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 3,
+              "Title": "FormMatrixGrid.cs",
+              "DocumentMoniker": "D:\\Visual studio\\Visual C\u002B\u002B\\matrix_grid\\WinFormsApp1\\FormMatrixGrid.cs",
+              "RelativeDocumentMoniker": "WinFormsApp1\\FormMatrixGrid.cs",
+              "ToolTip": "D:\\Visual studio\\Visual C\u002B\u002B\\matrix_grid\\WinFormsApp1\\FormMatrixGrid.cs",
+              "RelativeToolTip": "WinFormsApp1\\FormMatrixGrid.cs",
+              "ViewState": "AgIAAFUAAAAAAAAAAAAAwDgAAAAeAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-03T07:55:59.654Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
               "Title": "Program.cs",
               "DocumentMoniker": "C:\\Users\\Vivek O M\\Downloads\\MatrixGrid-main\\MatrixGrid-main\\Program.cs",
               "ToolTip": "C:\\Users\\Vivek O M\\Downloads\\MatrixGrid-main\\MatrixGrid-main\\Program.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-06-03T10:14:42.084Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "Program.cs",
-              "DocumentMoniker": "D:\\Visual studio\\Visual C\u002B\u002B\\WinFormsApp1\\WinFormsApp1\\Program.cs",
-              "RelativeDocumentMoniker": "WinFormsApp1\\Program.cs",
-              "ToolTip": "D:\\Visual studio\\Visual C\u002B\u002B\\WinFormsApp1\\WinFormsApp1\\Program.cs",
-              "RelativeToolTip": "WinFormsApp1\\Program.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-03T07:54:35.533Z"
             }
           ]
         }
