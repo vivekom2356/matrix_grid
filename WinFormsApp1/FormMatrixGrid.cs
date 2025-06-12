@@ -17,7 +17,7 @@ namespace WinFormsApp1
 
         public int m_XOffset; //Offset from which drawing start
         public int m_YOffset;
-        public int count = 9;
+        public int count = 8;
 
         public const int DEFAULT_X_OFFSET = 100;
         public const int DEFAULT_Y_OFFSET = 100;
@@ -48,7 +48,7 @@ namespace WinFormsApp1
             Pen layoutPen = new Pen(Color.HotPink);
             layoutPen.Width = 7;
             int counter = 2;
-            while (counter <= count)
+            while (counter <= count+1)
             {
                 if (token.IsCancellationRequested)
                 {
@@ -56,7 +56,7 @@ namespace WinFormsApp1
                 }
                 Thread.Sleep(500);
 
-                if (counter != count)
+                if (counter <= count)
                 {
                     m_NoOfRows = counter;
                     m_NoOfCols = counter;
@@ -94,7 +94,7 @@ namespace WinFormsApp1
         private void OnPaint(object sender, EventArgs e)
         {
 
-        }       
+        }
 
         private void toolStripButton5_Click(object sender, EventArgs e)
         {
@@ -106,9 +106,80 @@ namespace WinFormsApp1
         }
         private void toolStripButton1_Click(object sender, EventArgs e)
         {
+            // Cancel the running thread if it exists
             cancellationTokenSource?.Cancel();
+
+            // Wait for the thread to finish if it's running
+            if (mythread != null && mythread.IsAlive)
+            {
+                try
+                {
+                    mythread.Join(500); // Wait up to 500ms for the thread to finish
+                }
+                catch (ThreadStateException)
+                {
+                    // Thread is not in a joinable state, ignore
+                }
+            }
+
+            // Optionally, reset grid state or UI as needed
+            m_NoOfRows = DEFAULT_NO_ROWS;
+            m_NoOfCols = DEFAULT_NO_COLS;
+            Invalidate();
         }
 
-       
+        private void menuStrip1_ItemClicked(object sender, ToolStripItemClickedEventArgs e)
+        {
+            // Check if the clicked menu item is for setting the max grid size
+            if (e.ClickedItem != null && e.ClickedItem.Text.Contains("Max Size", StringComparison.OrdinalIgnoreCase))
+            {
+                using (var inputForm = new Form())
+                {
+                    inputForm.Text = "Set Max Grid Size";
+                    inputForm.Size = new System.Drawing.Size(250, 220);
+                    inputForm.FormBorderStyle = FormBorderStyle.FixedDialog;
+                    inputForm.StartPosition = FormStartPosition.CenterParent;
+                    inputForm.MaximizeBox = false;
+                    inputForm.MinimizeBox = false;
+
+                    var numericUpDown = new NumericUpDown
+                    {
+                        Location = new System.Drawing.Point(20, 20),
+                        Size = new System.Drawing.Size(100, 25),
+                        Minimum = 2,
+                        Maximum = 8,
+                        Value = count
+                    };
+
+                    var label = new Label
+                    {
+                        Text = "Enter grid size (2-8):",
+                        Location = new System.Drawing.Point(20, 50),
+                        AutoSize = true
+                    };
+
+                    var button = new Button
+                    {
+                        Text = "OK",
+                        DialogResult = DialogResult.OK,
+                        Location = new System.Drawing.Point(20, 75),
+                        Size = new System.Drawing.Size(80, 30) // Proper size for OK button
+
+                    };
+
+                    inputForm.Controls.AddRange(new Control[] { numericUpDown, label, button });
+                    inputForm.AcceptButton = button;
+
+                    if (inputForm.ShowDialog() == DialogResult.OK)
+                    {
+                        count = (int)numericUpDown.Value;
+                        m_NoOfRows = DEFAULT_NO_ROWS;
+                        m_NoOfCols = DEFAULT_NO_COLS;
+                        this.Text = $"Matrix Grid - Max Size: {count} x {count}";
+                        Invalidate();
+                    }
+                }
+            }
+        }
     }
 }

@@ -30,14 +30,13 @@
         {
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(FormMatrixGrid));
             toolStripSeparator1 = new ToolStripSeparator();
-            toolStripButton5 = new ToolStripButton();
+            startbutton = new ToolStripButton();
             toolStripSeparator2 = new ToolStripSeparator();
             toolStripSeparator3 = new ToolStripSeparator();
-            toolStripButton1 = new ToolStripButton();
+            stopbutton = new ToolStripButton();
             toolStrip1 = new ToolStrip();
             menuStrip1 = new MenuStrip();
-            maxSizeToolStripMenuItem = new ToolStripMenuItem();
-            threadToolStripMenuItem = new ToolStripMenuItem();
+            maxSize = new ToolStripMenuItem();
             toolStrip1.SuspendLayout();
             menuStrip1.SuspendLayout();
             SuspendLayout();
@@ -47,17 +46,17 @@
             toolStripSeparator1.Name = "toolStripSeparator1";
             toolStripSeparator1.Size = new Size(6, 69);
             // 
-            // toolStripButton5
+            // startbutton
             // 
-            toolStripButton5.AutoSize = false;
-            toolStripButton5.DisplayStyle = ToolStripItemDisplayStyle.Image;
-            toolStripButton5.Image = (Image)resources.GetObject("toolStripButton5.Image");
-            toolStripButton5.ImageScaling = ToolStripItemImageScaling.None;
-            toolStripButton5.ImageTransparentColor = Color.Magenta;
-            toolStripButton5.Name = "toolStripButton5";
-            toolStripButton5.Size = new Size(64, 64);
-            toolStripButton5.Text = "Start";
-            toolStripButton5.Click += toolStripButton5_Click;
+            startbutton.AutoSize = false;
+            startbutton.DisplayStyle = ToolStripItemDisplayStyle.Image;
+            startbutton.Image = (Image)resources.GetObject("startbutton.Image");
+            startbutton.ImageScaling = ToolStripItemImageScaling.None;
+            startbutton.ImageTransparentColor = Color.Magenta;
+            startbutton.Name = "startbutton";
+            startbutton.Size = new Size(64, 64);
+            startbutton.Text = "Start";
+            startbutton.Click += toolStripButton5_Click;
             // 
             // toolStripSeparator2
             // 
@@ -69,21 +68,21 @@
             toolStripSeparator3.Name = "toolStripSeparator3";
             toolStripSeparator3.Size = new Size(6, 69);
             // 
-            // toolStripButton1
+            // stopbutton
             // 
-            toolStripButton1.AutoSize = false;
-            toolStripButton1.DisplayStyle = ToolStripItemDisplayStyle.Image;
-            toolStripButton1.Image = (Image)resources.GetObject("toolStripButton1.Image");
-            toolStripButton1.ImageTransparentColor = Color.Magenta;
-            toolStripButton1.Name = "toolStripButton1";
-            toolStripButton1.Size = new Size(64, 64);
-            toolStripButton1.Text = "toolStripButton1";
-            toolStripButton1.Click += toolStripButton1_Click;
+            stopbutton.AutoSize = false;
+            stopbutton.DisplayStyle = ToolStripItemDisplayStyle.Image;
+            stopbutton.Image = (Image)resources.GetObject("stopbutton.Image");
+            stopbutton.ImageTransparentColor = Color.Magenta;
+            stopbutton.Name = "stopbutton";
+            stopbutton.Size = new Size(64, 64);
+            stopbutton.Text = "stopbutton";
+            stopbutton.Click += toolStripButton1_Click;
             // 
             // toolStrip1
             // 
             toolStrip1.ImageScalingSize = new Size(24, 24);
-            toolStrip1.Items.AddRange(new ToolStripItem[] { toolStripSeparator1, toolStripButton5, toolStripSeparator2, toolStripSeparator3, toolStripButton1 });
+            toolStrip1.Items.AddRange(new ToolStripItem[] { toolStripSeparator1, startbutton, toolStripSeparator2, toolStripSeparator3, stopbutton });
             toolStrip1.Location = new Point(0, 33);
             toolStrip1.Name = "toolStrip1";
             toolStrip1.Size = new Size(800, 69);
@@ -93,24 +92,19 @@
             // menuStrip1
             // 
             menuStrip1.ImageScalingSize = new Size(24, 24);
-            menuStrip1.Items.AddRange(new ToolStripItem[] { maxSizeToolStripMenuItem, threadToolStripMenuItem });
+            menuStrip1.Items.AddRange(new ToolStripItem[] { maxSize });
             menuStrip1.Location = new Point(0, 0);
             menuStrip1.Name = "menuStrip1";
             menuStrip1.Size = new Size(800, 33);
             menuStrip1.TabIndex = 1;
             menuStrip1.Text = "menuStrip1";
+            menuStrip1.ItemClicked += menuStrip1_ItemClicked;
             // 
-            // maxSizeToolStripMenuItem
+            // maxSize
             // 
-            maxSizeToolStripMenuItem.Name = "maxSizeToolStripMenuItem";
-            maxSizeToolStripMenuItem.Size = new Size(95, 29);
-            maxSizeToolStripMenuItem.Text = "max size";
-            // 
-            // threadToolStripMenuItem
-            // 
-            threadToolStripMenuItem.Name = "threadToolStripMenuItem";
-            threadToolStripMenuItem.Size = new Size(79, 29);
-            threadToolStripMenuItem.Text = "thread";
+            maxSize.Name = "maxSize";
+            maxSize.Size = new Size(95, 29);
+            maxSize.Text = "max size";
             // 
             // FormMatrixGrid
             // 
@@ -134,13 +128,12 @@
         #endregion
 
         private ToolStripSeparator toolStripSeparator1;
-        private ToolStripButton toolStripButton5;
+        private ToolStripButton startbutton;
         private ToolStripSeparator toolStripSeparator2;
         private ToolStripSeparator toolStripSeparator3;
-        private ToolStripButton toolStripButton1;
+        private ToolStripButton stopbutton;
         private ToolStrip toolStrip1;
         private MenuStrip menuStrip1;
-        private ToolStripMenuItem maxSizeToolStripMenuItem;
-        private ToolStripMenuItem threadToolStripMenuItem;
+        private ToolStripMenuItem maxSize;
     }
 }
